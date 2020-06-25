@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, rgb(77, 77, 77) , rgb(7, 7, 7));
+        }
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.stream-window {
+    margin-top: 50px;
+    border: 3px solid white;
+    width: 720px;
+    
+    margin: 0 auto;
+}
