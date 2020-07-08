@@ -4,7 +4,7 @@
 .wrapper {
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  background-image: url(../assets/img/ezgif.com-gif-maker.webp);
+  background-image: url(../assets/img/campo1.png);
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
@@ -55,14 +55,6 @@
   background-color: #fff;
   color: black;
   transition: all ease-in-out 150ms;
-}
-
-a,
-a:visited,
-a:hover,
-a:link {
-  text-decoration: none;
-  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
