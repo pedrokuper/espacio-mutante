@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500;1,700&display=swap');
 
 .wrapper {
@@ -7,7 +7,7 @@
   //font-family: 'Nunito', sans-serif;
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-  //background-color: rgba(105, 104, 104, 0.24);
+  background-color: rgba(105, 104, 104, 0.24);
   background-image: url(../assets/img/campo1.png);
   background-size: cover;
   
@@ -65,7 +65,7 @@
       .button {
         display: block;
         text-align: center;
-        background: #000;
+        background: rgb(29, 29, 29);
         padding: 10px 40px;
         cursor: pointer;
         
@@ -80,4 +80,13 @@
       
     }
   }
+}
+
+
+a,
+a:visited,
+a:link,
+a:hover {
+  color: #fff;
+  text-decoration: none;
 }

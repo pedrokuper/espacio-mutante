@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500;1,700&display=swap");
 .wrapper {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
   background-color: rgba(105, 104, 104, 0.24);
   background-image: url(../assets/img/campo1.png);
@@ -8,18 +8,22 @@
   background-blend-mode: screen;
   background-repeat: no-repeat;
 }
+
 .wrapper .logo {
   padding: 10px;
   width: 85px;
 }
+
 .wrapper .title-section {
   text-align: center;
   color: white;
 }
+
 .wrapper .title-section .main-title {
   font-size: 5rem;
   letter-spacing: 0.5rem;
 }
+
 .wrapper .title-section .subtitle {
   padding: 10px;
   display: inline-block;
@@ -28,21 +32,33 @@
   font-style: italic;
   background-color: rgba(0, 0, 0, 0.192);
 }
+
 .wrapper .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 150px;
 }
+
 .wrapper .navbar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 1.3rem;
 }
+
 .wrapper .navbar .nav-list .nav-item {
   color: white;
   margin-right: 100px;
 }
+
 .wrapper .navbar .nav-list .button {
   display: block;
   text-align: center;
@@ -50,9 +66,11 @@
   padding: 10px 40px;
   cursor: pointer;
 }
+
 .wrapper .navbar .nav-list .button:hover {
   background-color: #fff;
   color: black;
+  -webkit-transition: all ease-in-out 150ms;
   transition: all ease-in-out 150ms;
 }
 
@@ -63,5 +81,4 @@ a:hover {
   color: #fff;
   text-decoration: none;
 }
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
